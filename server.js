@@ -71,7 +71,7 @@ app.post("/book", async (req, res) => {
 
     const mailOptions = {
       from: `"Booking Request" <${email}>`,
-      to: "manojpolevault1202@gmail.com",
+      to: "woodprintsindia@gmail.com",
       subject: `New ${item.type.charAt(0).toUpperCase() + item.type.slice(1)} Booking Request`,
       html: htmlContent,
     };
